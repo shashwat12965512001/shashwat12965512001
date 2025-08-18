@@ -1,28 +1,29 @@
 # Hi there! 👋 I'm Shashwat Srivastava  
 
-Welcome to my GitHub profile! I'm a Master's student pursuing MCA and a passionate developer with experience in Flutter, Next.js, Python, and backend development. I love working on hybrid applications, optimizing performance, and integrating AI/ML into my projects.
+Welcome to my GitHub profile! I'm a Master's student pursuing MCA and a passionate developer with experience in Flutter, Next.js, Python, and backend development. I love working on hybrid applications, optimising performance, and integrating AI/ML into my projects.
 
 ## 🚀 About Me
-- 🔭 Currently working on **SpendWise - Expense & Budget Tracker**
-- 🌱 Learning advanced backend optimization and AI-powered financial insights
+- 🔭 Currently working on **PESU-Library Management System**
+- 🌱 Learning advanced backend optimisation and AI-powered systems
 - 💡 Exploring Web3, AI, and automation
-- 💬 Ask me about **Flutter, Next.js, Express.js, MongoDB, and ML integration**
-- 📫 Reach me at **shashwatsrivastava0805@gmail.com**
+- 💬 Ask me about **Flutter, Next.js, Strapi, Express.js, MongoDB, and ML integration**
+- 📫 Reach me at **ss12965512001@gmail.com**
 - ⚡ Fun fact: I love building apps that solve real-world problems!
 
 ## 🛠 Tech Stack
-- **Frontend:** Flutter, Next.js, React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js, Python
-- **Database:** MongoDB, Firebase
-- **DevOps & Tools:** Git, Docker, CI/CD, WebSockets
-- **AI/ML:** TensorFlow, Scikit-Learn, NLP
+- **Frontend:** Flutter, Next.js, React.js, Tailwind CSS  
+- **Backend:** Strapi CMS, Node.js, Express.js, Python  
+- **Database:** MongoDB, MySQL, Firebase  
+- **DevOps & Tools:** Git, Docker, CI/CD, WebSockets  
+- **AI/ML:** TensorFlow, Scikit-Learn, NLP  
 
 ## 📌 Current Projects
-### 🔹 [SpendWise - Expense & Budget Tracker](https://github.com/shashwat12965512001/spendwise)
-- Hybrid app with **Flutter & Next.js**
-- **SMS transaction tracking** using a native companion app
-- **Real-time transaction analysis** powered by AI/ML
-- **Dark/Light Mode** with interactive UI animations
+### 🔹 [PESU-Library Management System](https://github.com/shashwat12965512001/PESU-Library-Dashboard)
+- **Koha-inspired Library System** built with **Strapi CMS + Next.js + MySQL**  
+- **Role & Permission Management** with dynamic access control  
+- **Inventory, Patrons, Serials, Acquisitions, and Circulation Modules**  
+- **Modern Student & Admin Dashboards** with Dark/Light Mode  
+- **AI-powered features** for search, recommendations, and insights  
 
 ## 📈 GitHub Stats
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=shashwat12965512001&show_icons=true&theme=dark)
@@ -32,4 +33,3 @@ Welcome to my GitHub profile! I'm a Master's student pursuing MCA and a passiona
 [![Portfolio](https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio.com)  
 
 Let's build something amazing together! 🚀
-
