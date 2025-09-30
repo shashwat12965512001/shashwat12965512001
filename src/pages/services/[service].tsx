@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams, Link } from "react-router-dom";
 
 const servicesData = {
@@ -40,7 +39,7 @@ const servicesData = {
       "GraphQL",
     ],
   },
-  "custom-software-solutions": {
+  "custom-backend-solutions": {
     title: "Custom Software Solutions",
     description:
       "Developing tailored software that meets unique business needs. From automation tools to enterprise applications, ensuring reliable, maintainable, and efficient solutions.",
@@ -60,7 +59,7 @@ const ServiceDetail = () => {
 
   if (!serviceInfo) {
     return (
-      <div className="min-h-screen bg-background text-neon p-8">
+      <div className="min-h-screen bg-background text-neon p-8 flex flex-col justify-center items-center">
         <h1 className="text-4xl font-bold mb-4">Service Not Found</h1>
         <Link to="/" className="text-neon underline hover:text-neon/80">
           Go back to Home
@@ -70,38 +69,64 @@ const ServiceDetail = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background text-neon p-8 max-w-4xl mx-auto">
-      <h1 className="text-5xl font-bold mb-6">{serviceInfo.title}</h1>
-      <p className="text-lg mb-6">{serviceInfo.description}</p>
+    <div className="min-h-screen bg-background text-neon p-8 flex flex-col items-center justify-center">
+      <div className="w-full max-w-3xl bg-dark-card/60 rounded-2xl shadow-lg px-10 py-8 mb-6 border border-neon/20 transition-all backdrop-blur-md">
+        {/* Service Title with gradient underline */}
+        <h1 className="text-5xl font-bold mb-2 text-neon relative inline-block z-10">
+          {serviceInfo.title}
+          <span
+            className="absolute left-0 right-0 bottom-[-6px] h-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 opacity-40 rounded-full"
+            aria-hidden="true"
+          />
+        </h1>
+        <p className="text-lg mb-7 text-neon/70 leading-relaxed">
+          {serviceInfo.description}
+        </p>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4">Features</h2>
-        <ul className="list-disc list-inside space-y-2">
-          {serviceInfo.features.map((feature, idx) => (
-            <li key={idx} className="text-neon/90">
-              {feature}
-            </li>
-          ))}
-        </ul>
-      </section>
+        {/* Features section as cards */}
+        <section className="mb-8">
+          <h2 className="text-3xl font-semibold mb-4">
+            <span className="border-b-2 border-neon/40 pb-1">Features</span>
+          </h2>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {serviceInfo.features.map((feature, idx) => (
+              <li
+                key={idx}
+                className="bg-neon/10 hover:bg-neon/20 rounded-xl p-4 shadow transition-all flex items-center gap-4"
+              >
+                <span className="w-3 h-3 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full mr-2"></span>
+                <span className="text-neon/90">{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4">Technologies</h2>
-        <div className="flex flex-wrap gap-3">
-          {serviceInfo.technologies.map((tech, idx) => (
-            <span
-              key={idx}
-              className="bg-neon/20 text-neon rounded-full px-4 py-1 text-sm font-medium"
-            >
-              {tech}
-            </span>
-          ))}
+        {/* Technologies section as badges */}
+        <section className="mb-8">
+          <h2 className="text-3xl font-semibold mb-4">
+            <span className="border-b-2 border-neon/40 pb-1">Technologies</span>
+          </h2>
+          <div className="flex flex-wrap gap-4">
+            {serviceInfo.technologies.map((tech, idx) => (
+              <span
+                key={idx}
+                className="bg-gradient-to-br from-blue-600/40 to-cyan-700/40 text-neon rounded-full px-5 py-2 text-base font-semibold shadow hover:scale-105 transition-all"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </section>
+
+        <div className="mt-6 text-right">
+          <Link
+            to="/"
+            className="text-neon underline hover:text-neon/90 transition inline-block"
+          >
+            ← Back to Home
+          </Link>
         </div>
-      </section>
-
-      <Link to="/" className="text-neon underline hover:text-neon/80">
-        ← Back to Home
-      </Link>
+      </div>
     </div>
   );
 };
