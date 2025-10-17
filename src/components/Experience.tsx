@@ -4,10 +4,30 @@ import { Building2, Calendar, TrendingUp, Code, Layers } from "lucide-react";
 
 const Experience = () => {
   const skills = [
-    "WordPress Plugins", "Payment Gateways", "Razorpay", "PayPal", "Stripe", 
-    "Shiprocket API", "PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "Git",
-    "React", "Next.js", "Node.js", "Express.js", "MongoDB", "MySQL", "Firebase",
-    "Python", "Flask", "Data Visualization", "Charting", "Security Basics"
+    "WordPress Plugins",
+    "Payment Gateways",
+    "Razorpay",
+    "PayPal",
+    "Stripe",
+    "Shiprocket API",
+    "PHP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "Git",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Firebase",
+    "Python",
+    "Flask",
+    "Data Visualization",
+    "Charting",
+    "Security Basics",
   ];
 
   const projects = [
@@ -41,24 +61,27 @@ const Experience = () => {
         "Focus on minimal dependencies and maintainable code",
       ],
     },
-    {
-      title: "Threat Intelligence Learning",
-      role: "Self-Learning / Labs",
-      duration: "Ongoing",
-      highlights: [
-        "Hands-on networking, Linux, cybersecurity fundamentals",
-        "Applied learning in small security and data analysis projects",
-      ],
-    },
+    // {
+    //   title: "Threat Intelligence Learning",
+    //   role: "Self-Learning / Labs",
+    //   duration: "Ongoing",
+    //   highlights: [
+    //     "Hands-on networking, Linux, cybersecurity fundamentals",
+    //     "Applied learning in small security and data analysis projects",
+    //   ],
+    // },
   ];
 
   return (
     <section className="py-20 px-4 bg-dark-card/30" id="experience">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">Work Experience</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
+            Work Experience
+          </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            My professional journey and the impact I've made in tech through internships and major projects
+            My professional journey and the impact I've made in tech through
+            internships and major projects
           </p>
         </div>
 
@@ -72,8 +95,12 @@ const Experience = () => {
                     <Building2 className="w-6 h-6 text-neon" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-foreground">WooDevz Technologies</h3>
-                    <p className="text-neon font-semibold">Intern → Software Developer</p>
+                    <h3 className="text-2xl font-bold text-foreground">
+                      WooDevz Technologies
+                    </h3>
+                    <p className="text-neon font-semibold">
+                      Intern → Software Developer
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2 text-muted-foreground">
@@ -90,11 +117,13 @@ const Experience = () => {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-neon rounded-full mt-3 mr-3 flex-shrink-0"></span>
-                    Developed custom WordPress plugins to enhance website functionality
+                    Developed custom WordPress plugins to enhance website
+                    functionality
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-neon rounded-full mt-3 mr-3 flex-shrink-0"></span>
-                    Integrated payment gateways like Razorpay, PayPal, and Stripe
+                    Integrated payment gateways like Razorpay, PayPal, and
+                    Stripe
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-neon rounded-full mt-3 mr-3 flex-shrink-0"></span>
@@ -102,17 +131,21 @@ const Experience = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-neon rounded-full mt-3 mr-3 flex-shrink-0"></span>
-                    Worked across full-stack development using PHP and JavaScript
+                    Worked across full-stack development using PHP and
+                    JavaScript
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-neon rounded-full mt-3 mr-3 flex-shrink-0"></span>
-                    Gained essential soft skills: communication, time, and money management
+                    Gained essential soft skills: communication, time, and money
+                    management
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold mb-4">Technologies Used</h4>
+                <h4 className="text-lg font-semibold mb-4">
+                  Technologies Used
+                </h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill, index) => (
                     <Badge
@@ -132,11 +165,15 @@ const Experience = () => {
         {/* Major Projects / Independent Work */}
         <div className="max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold mb-8 gradient-text flex items-center">
-            <Code className="w-6 h-6 mr-2 text-neon" /> Major Projects / Independent Work
+            <Code className="w-6 h-6 mr-2 text-neon" /> Major Projects /
+            Independent Work
           </h3>
 
           {projects.map((proj, idx) => (
-            <Card key={idx} className="card-hover bg-dark-card border-neon/20 mb-6 overflow-hidden">
+            <Card
+              key={idx}
+              className="card-hover bg-dark-card border-neon/20 mb-6 overflow-hidden"
+            >
               <CardContent className="p-6">
                 <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
                   <div className="flex items-center space-x-4 mb-4 lg:mb-0">
@@ -144,7 +181,9 @@ const Experience = () => {
                       <Layers className="w-5 h-5 text-neon" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold text-foreground">{proj.title}</h4>
+                      <h4 className="text-xl font-bold text-foreground">
+                        {proj.title}
+                      </h4>
                       <p className="text-neon font-semibold">{proj.role}</p>
                     </div>
                   </div>
