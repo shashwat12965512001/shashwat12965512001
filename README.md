@@ -208,12 +208,6 @@ Included:
 
 ---
 
-# 📊 GitHub Streak
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=shashwat12965512001&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
----
-
 # 🏆 Core Expertise
 
 - Full Stack Development
