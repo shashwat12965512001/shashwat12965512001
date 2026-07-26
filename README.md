@@ -1,55 +1,256 @@
-# Hi there! 👋 I'm Shashwat Srivastava  
+# Hi there! 👋 I'm Shashwat Srivastava
 
-Welcome to my GitHub profile! I'm a **Full-Stack Developer** with hands-on experience in building scalable applications using **Flutter, Next.js, Python, Flask, Strapi, and Firebase**.  
-I love creating products that solve real-world problems, optimizing performance, and integrating **AI/ML** into applications.  
+### 🚀 Senior Full Stack Software Engineer | AI Engineer | Freelance Consultant
 
----
+Welcome to my GitHub! I'm a **Full Stack Software Engineer** with **5+ years of experience** building scalable web applications, AI-powered products, SaaS platforms, and enterprise-grade e-commerce solutions. I enjoy turning ideas into production-ready software with clean architecture, modern technologies, and exceptional user experiences.
 
-## 🚀 About Me
-- 🎓 Completed **Master of Computer Applications (MCA)** from **PES University, Bengaluru (2023–2025)**  
-- 💼 Actively seeking **Software Developer roles** in product-based companies  
-- 🔭 Currently building **real-world projects** like **Spendwise (finance tracker)** and a **Koha-inspired Library Management System**  
-- 🌱 Exploring **Machine Learning, Cybersecurity, and Large-Scale System Design**  
-- 💬 Ask me about **Flutter, Next.js, Strapi, Express.js, MongoDB, and backend architecture**  
-- 📫 Reach me at **ss12965512001@gmail.com**  
-- ⚡ Fun fact: I enjoy building structured systems that feel like real-world products, not just projects!  
+Since **2025**, I've been working as a **full-time freelance software engineer**, helping startups and businesses build custom applications while also developing my own AI-powered products.
 
 ---
 
-## 🛠 Tech Stack
-- **Frontend:** Flutter, Next.js, React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js, Python (Flask), Strapi CMS  
-- **Database:** MongoDB, MySQL, Firebase  
-- **DevOps & Tools:** Git, Docker, CI/CD, WebSockets  
-- **AI/ML:** TensorFlow, Scikit-Learn, NLP basics  
+# 🚀 About Me
+
+- 💼 Full-time **Freelance Full Stack Software Engineer** (2025 – Present)
+- 👨‍💻 5+ years of experience building production-ready applications
+- 🎓 MCA from **PES University, Bengaluru (2023–2025)**
+- 🎓 BCA from **Integral University, Lucknow (2019–2022)**
+- 🤖 Passionate about AI, LLMs, Machine Learning, and intelligent software systems
+- 🌱 Currently building:
+  - 🩺 **DocStudy.in** – Medical Learning Platform *(Client Project)*
+  - 🤝 **Neglicom** – AI-Powered E-Commerce Negotiation Platform *(Personal Project)*
+- 🚀 Interested in Software Engineering, AI Engineering, System Design, and Product Development
+- 💬 Ask me about Next.js, React, Node.js, PHP, Laravel, Python, MySQL, Flutter, REST APIs, AI Integration, and scalable backend architecture.
+- 📫 Email: **shashwatsrivastava0805@gmail.com**
+- ⚡ I love building complete products—from database design to deployment.
 
 ---
 
-## 📌 Highlight Projects
-### 🔹 [PESU-Library Management System](https://github.com/shashwat12965512001/PESU-Library-Dashboard)
-- **Koha-inspired Library System** built with **Strapi CMS + Next.js + MySQL**  
-- Modules: **Inventory, Patrons, Serials, Acquisitions, Circulation**  
-- **Dynamic Role & Permission Management**  
-- **Modern Dashboards** (Student + Admin) with Dark/Light Mode  
-- Includes **AI-powered search & recommendations**  
+# 🛠 Tech Stack
 
-### 🔹 Spendwise (Personal Finance Tracker) *(Private Repo / Demo Project)*
-- Built with **Flutter (frontend) + Flask (backend) + Firebase (database)**  
-- Features: Income/Expense tracking, charts with **fl_chart**, category breakdowns  
-- Implemented **rule-based categorization** and month/year filters  
-- Inspired by **Google Pay spends dashboard**  
+### 💻 Frontend
+- React.js
+- Next.js
+- JavaScript
+- TypeScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- Bootstrap
+- Flutter
+
+### ⚙ Backend
+- Node.js
+- Express.js
+- PHP
+- Laravel
+- Python
+- Flask
+- REST APIs
+
+### 🗄 Databases
+- MySQL
+- MongoDB
+- Firebase
+
+### 🤖 AI / Machine Learning
+- Python
+- OpenAI APIs
+- LLM Integration
+- Prompt Engineering
+- TensorFlow
+- Machine Learning
+- NLP
+
+### ☁ DevOps & Tools
+- Git
+- GitHub
+- Docker
+- Linux
+- Vercel
+- Postman
+- Firebase
+- cPanel
+- Apache
+- Nginx
+
+### 🔌 Integrations
+- Razorpay
+- Shiprocket
+- JWT Authentication
+- OAuth
+- Third-party APIs
 
 ---
 
-## 📈 GitHub Stats
-![Shashwat's GitHub Stats](https://github-readme-stats.vercel.app/api?username=shashwat12965512001&show_icons=true&theme=dark)
+# 🚀 Featured Projects
+
+## 🤝 Neglicom *(Personal Project)*
+
+An AI-powered multi-vendor e-commerce platform where customers negotiate prices directly with an AI assistant before purchasing.
+
+### Highlights
+
+- 🤖 AI Negotiation Assistant
+- 💬 Real-time AI conversations
+- 🛒 Bundle Negotiation
+- 🏪 Multi-vendor Marketplace
+- 📦 Shipping Integration (Shiprocket)
+- 💳 Razorpay Payment Gateway
+- 🧠 LLM-powered negotiation engine
+- 📊 Advanced Admin Dashboard
+- 🔐 Authentication & Authorization
+- 📱 Fully Responsive UI
+
+**Tech Stack**
+
+`Next.js` • `Node.js` • `Express.js` • `Python` • `Flask` • `MySQL` • `Tailwind CSS`
 
 ---
 
-## 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ss12965512001/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://shashwat12965512001.vercel.app/)  
+## 🩺 DocStudy.in *(Client Project)*
+
+A complete medical learning ecosystem built for students and healthcare professionals.
+
+### Features
+
+- 📚 Courses
+- 📖 Subjects
+- 📝 Articles
+- 🧠 MCQs
+- 🎯 Quizzes
+- 👨‍🎓 Student Dashboard
+- 🔐 Authentication
+- 📈 Progress Tracking
+- 🛠 Admin Panel
+- 📱 Responsive UI using DashLite
+
+**Tech Stack**
+
+`PHP` • `MySQL` • `HTML` • `CSS` • `JavaScript` • `DashLite`
 
 ---
 
-💡 Let’s build something amazing together! 🚀
+# 💼 Client Projects
+
+I've successfully delivered multiple production applications for businesses across different industries.
+
+### 🎁 Wisdom Gifts
+Premium gifting e-commerce platform.
+
+🌐 https://wisdomgifts.in
+
+---
+
+### 🌿 Milk & Honey
+Luxury skincare & wellness e-commerce platform.
+
+🌐 https://milkandhoney.in
+
+---
+
+### 🛍 Casence
+Custom-built e-commerce platform.
+
+🌐 https://casence.in
+
+---
+
+### 🍬 Chhappan Bhog
+One of my first freelancing projects.
+
+Premium sweets & food ordering platform.
+
+🌐 https://www.chhappanbhog.com
+
+---
+
+### 🏢 Ritesh Enterprises
+
+Corporate business website developed using HTML, CSS, JavaScript and PHP.
+
+🌐 https://riteshenterprises.in
+
+---
+
+### 🎓 ExamInspect
+
+Migrated the complete production website from WordPress to Laravel.
+
+Included:
+
+- Authentication
+- Admin Panel
+- Database Migration
+- Performance Improvements
+- Backend Optimization
+
+🌐 https://examinspect.com
+
+---
+
+### 🎓 CloseCampus
+
+Migrated the complete production website from WordPress to Laravel.
+
+Included:
+
+- Authentication
+- Admin Panel
+- Database Migration
+- API Integration
+- Performance Optimization
+
+🌐 https://closecampus.com
+
+---
+
+# 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shashwat12965512001&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shashwat12965512001&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+# 📊 GitHub Streak
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=shashwat12965512001&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+---
+
+# 🏆 Core Expertise
+
+- Full Stack Development
+- AI-Powered Applications
+- SaaS Development
+- E-commerce Development
+- REST API Development
+- Software Architecture
+- Database Design
+- Authentication & Authorization
+- Payment Gateway Integration
+- Shipping API Integration
+- Performance Optimization
+- Scalable Backend Systems
+- Cloud Deployment
+- Technical Consulting
+
+---
+
+# 🤝 Let's Connect
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://shashwat12965512001.vercel.app)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ss12965512001)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shashwat12965512001)
+
+📧 **Email:** shashwatsrivastava0805@gmail.com
+
+---
+
+## 💡 Philosophy
+
+> *"Great software isn't just about writing code—it's about solving real-world problems with clean architecture, scalable systems, and exceptional user experiences."*
+
+⭐ **Thanks for visiting my profile! Feel free to explore my repositories and connect with me. Let's build something amazing together!** 🚀
